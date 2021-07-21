@@ -1,0 +1,26 @@
+<div class="country-info__box">
+  <div class="country-info__img-wrap">
+    <img src="{{country.flag}}" alt="{{country.name}}">
+  </div>
+
+  <h1 class="country-info__title">{{country.name}}</h1>
+</div>
+
+
+
+<ul class="country-info__list">
+  <li class="country-info__item">
+    <h2 class="country-info__item-title">Capital:</h2>
+    <p class="country-info__item-discr">{{country.capital}}</p>
+  </li>
+  <li class="country-info__item">
+    <h2 class="country-info__item-title">Population:</h2>
+    <p class="country-info__item-discr">{{country.population}}</p>
+  </li>
+  <li class="country-info__item">
+    <h2 class="country-info__item-title">Languages:</h2>
+    <p class="country-info__item-discr">
+      {{languagesString}}
+    </p>
+  </li>
+</ul>
